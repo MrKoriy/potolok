@@ -1,0 +1,139 @@
+{
+  "slug": "geometria",
+  "name": "Геометрия",
+  "tagline": "Дизайнерские потолки и теневой профиль. Рейтинг 5.0 (432 отзыва)",
+  "city": "Москва",
+  "phone": "+7 (966) 976-42-69",
+  "telegram": "@geometry777",
+  "whatsapp": "79669764269",
+  "address": "Часовая улица, 9",
+  "workingHours": {
+    "start": "09:00",
+    "end": "20:00",
+    "slotDurationMinutes": 120,
+    "bufferMinutes": 45
+  },
+  "theme": {
+    "accentColor": "#D97706",
+    "accentForeground": "#000000",
+    "borderRadius": "0.75rem",
+    "mode": "dark"
+  },
+  "pricing": {
+    "minOrderAmount": 11000,
+    "canvases": [
+      {
+        "id": "msd-premium",
+        "name": "MSD Premium Матовый",
+        "description": "Идеально гладкая матовая поверхность без отблесков, плотность 240 г/м²",
+        "pricePerSqM": 850,
+        "popular": true
+      },
+      {
+        "id": "descor-textile",
+        "name": "Descor Эко-ткань (Германия)",
+        "description": "Премиальное бесшовное дышащее полотно с эффектом штукатурки",
+        "pricePerSqM": 2400
+      },
+      {
+        "id": "pongs-satin",
+        "name": "Pongs Сатиновый",
+        "description": "Шелковистая фактура с мягким рассеиванием света",
+        "pricePerSqM": 950
+      }
+    ],
+    "profiles": [
+      {
+        "id": "eurokraab",
+        "name": "Теневой профиль EuroKRAAB 4.0",
+        "description": "Эстетичный зазор 6 мм вдоль стен без резиновых заглушек и плинтусов",
+        "pricePerMeter": 1200,
+        "tag": "Хит 2026"
+      },
+      {
+        "id": "floating-led",
+        "name": "Парящий потолок с подсветкой",
+        "description": "Контурное светодиодное свечение по периметру стен",
+        "pricePerMeter": 1500
+      },
+      {
+        "id": "classic-pvc",
+        "name": "Классический с маскировочной лентой",
+        "description": "Стандартный надежный багет с аккуратной белой вставкой",
+        "pricePerMeter": 350
+      }
+    ],
+    "lighting": [
+      {
+        "id": "magnetic-tracks",
+        "name": "Врезная магнитная трек-система",
+        "description": "Шинопровод в плоскости полотна со сменными светильниками",
+        "pricePerUnit": 3800,
+        "unit": "м.пог",
+        "defaultQty": 0
+      },
+      {
+        "id": "light-lines",
+        "name": "Световые линии (SLOTT)",
+        "description": "Встроенные яркие линейные LED-светильники",
+        "pricePerUnit": 2900,
+        "unit": "м.пог",
+        "defaultQty": 0
+      },
+      {
+        "id": "spotlights",
+        "name": "Точечные споты GX53 / глубокие споты",
+        "description": "Монтаж платформы, проводка и коммутация светильника",
+        "pricePerUnit": 650,
+        "unit": "шт",
+        "defaultQty": 4
+      },
+      {
+        "id": "chandelier",
+        "name": "Монтаж люстры",
+        "description": "Усиленная закладная под вес до 20 кг",
+        "pricePerUnit": 1200,
+        "unit": "шт",
+        "defaultQty": 1
+      }
+    ],
+    "curtainNiches": [
+      {
+        "id": "niche-pk5",
+        "name": "Алюминиевый карниз ПК-5 (3 ряда)",
+        "pricePerMeter": 2400
+      },
+      {
+        "id": "niche-simple",
+        "name": "Скрытая ниша с перегибом полотна",
+        "pricePerMeter": 1400
+      }
+    ]
+  },
+  "surveyors": [
+    {
+      "id": "srv-geometria-1",
+      "name": "Борис Широков",
+      "role": "Ведущий инженер-технолог",
+      "phone": "+7 (966) 976-42-69",
+      "districts": [
+        "Все районы Москвы и МО"
+      ],
+      "active": true
+    }
+  ],
+  "features": [
+    {
+      "title": "Экспертиза в теневых профилях",
+      "description": "Официальный сертифицированный партнер EuroKRAAB и Lumfer."
+    },
+    {
+      "title": "Точный лазерный проект",
+      "description": "Проектирование световых линий и трековых систем с гарантией стыков."
+    },
+    {
+      "title": "Работа по дизайн-проектам",
+      "description": "Реализуем сложные узлы примыкания точно по чертежам дизайнеров."
+    }
+  ]
+}

@@ -9,7 +9,7 @@ VALUES (
   'Арт-Потолок',
   'Санкт-Петербург и ЛО',
   '+7 (812) 640-33-11',
-  '{"slug":"art-potolok","name":"Арт-Потолок","tagline":"Надежные натяжные потолки под ключ с гарантией 15 лет","city":"Санкт-Петербург и ЛО","phone":"+7 (812) 640-33-11","telegram":"@art_potolok_spb","whatsapp":"+79126403311","address":"Лиговский пр-т, 50","workingHours":{"start":"08:30","end":"20:30","slotDurationMinutes":120,"bufferMinutes":45},"theme":{"accentColor":"#10b981","accentForeground":"#000000","borderRadius":"0.5rem","mode":"dark"},"pricing":{"minOrderAmount":7000,"canvases":[{"id":"classic-matte","name":"Классический Матовый","description":"Практичное полотно европейского стандарта, не желтеет и моется","pricePerSqM":650,"popular":true},{"id":"glossy-white","name":"Глянцевый белоснежный","description":"Зеркальный эффект, визуально поднимает высоту потолка в ванной или коридоре","pricePerSqM":690},{"id":"satin-soft","name":"Мягкий Сатин","description":"Перламутровый блеск, подходит для спален и детских комнат","pricePerSqM":720}],"profiles":[{"id":"classic-pvc","name":"Базовый профиль с плинтусом","description":"Проверенное классическое решение с белой резиновой вставкой","pricePerMeter":250},{"id":"shadow-gap","name":"Теневой зазор (Shadow profile)","description":"Стильный интерьерный зазор вдоль стен","pricePerMeter":850,"tag":"Выбор дизайнеров"}],"lighting":[{"id":"spots","name":"Точечный светильник (монтаж)","description":"Установка платформы и подключение спота","pricePerUnit":450,"unit":"шт","defaultQty":4},{"id":"chandelier","name":"Установка люстры","description":"Монтаж крепежной платформы и коммутация","pricePerUnit":950,"unit":"шт","defaultQty":1},{"id":"led-strip","name":"Светодиодная подсветка","description":"Укладка LED-ленты в нишу или парящий профиль","pricePerUnit":1100,"unit":"м.пог","defaultQty":0}],"curtainNiches":[{"id":"niche-std","name":"Ниша под карниз стандартная","pricePerMeter":950}]},"surveyors":[{"id":"srv-spb-1","name":"Илья Семенов","role":"Инженер-замерщик","phone":"+7 (912) 640-33-12","districts":["Приморский","Выборгский","Калининский"],"active":true},{"id":"srv-spb-2","name":"Роман Кузнецов","role":"Замерщик-сметчик","phone":"+7 (912) 640-33-13","districts":["Московский","Невский","Фрунзенский"],"active":true}],"features":[{"title":"Монтаж за 1 день","description":"Бригады с опытом от 7 лет. Чистый монтаж без пыли и грязи."},{"title":"Договор и гарантия 15 лет","description":"Официальная гарантия на полотна и монтажные швы по договору."},{"title":"Бесплатный расчет за 10 минут","description":"Зафиксируем персональную скидку 10% при записи через онлайн-сервис."}]}'::jsonb,
+  '{"slug":"art-potolok","name":"Арт-Потолок","tagline":"Надежные натяжные потолки под ключ с гарантией 15 лет","city":"Санкт-Петербург и ЛО","phone":"+7 (812) 640-33-11","telegram":"@art_potolok_spb","whatsapp":"+79126403311","address":"Лиговский пр-т, 50","workingHours":{"start":"08:30","end":"20:30","slotDurationMinutes":120,"bufferMinutes":45},"theme":{"accentColor":"#B38938","accentForeground":"#FFFFFF","borderRadius":"0.5rem","mode":"light"},"pricing":{"minOrderAmount":7000,"canvases":[{"id":"classic-matte","name":"Классический Матовый","description":"Практичное полотно европейского стандарта, не желтеет и моется","pricePerSqM":650,"popular":true},{"id":"glossy-white","name":"Глянцевый белоснежный","description":"Зеркальный эффект, визуально поднимает высоту потолка в ванной или коридоре","pricePerSqM":690},{"id":"satin-soft","name":"Мягкий Сатин","description":"Перламутровый блеск, подходит для спален и детских комнат","pricePerSqM":720}],"profiles":[{"id":"classic-pvc","name":"Базовый профиль с плинтусом","description":"Проверенное классическое решение с белой резиновой вставкой","pricePerMeter":250},{"id":"shadow-gap","name":"Теневой зазор (Shadow profile)","description":"Стильный интерьерный зазор вдоль стен","pricePerMeter":850,"tag":"Выбор дизайнеров"}],"lighting":[{"id":"spots","name":"Точечный светильник (монтаж)","description":"Установка платформы и подключение спота","pricePerUnit":450,"unit":"шт","defaultQty":4},{"id":"chandelier","name":"Установка люстры","description":"Монтаж крепежной платформы и коммутация","pricePerUnit":950,"unit":"шт","defaultQty":1},{"id":"led-strip","name":"Светодиодная подсветка","description":"Укладка LED-ленты в нишу или парящий профиль","pricePerUnit":1100,"unit":"м.пог","defaultQty":0}],"curtainNiches":[{"id":"niche-std","name":"Ниша под карниз стандартная","pricePerMeter":950}]},"surveyors":[{"id":"srv-spb-1","name":"Илья Семенов","role":"Инженер-замерщик","phone":"+7 (912) 640-33-12","districts":["Приморский","Выборгский","Калининский"],"active":true},{"id":"srv-spb-2","name":"Роман Кузнецов","role":"Замерщик-сметчик","phone":"+7 (912) 640-33-13","districts":["Московский","Невский","Фрунзенский"],"active":true}],"features":[{"title":"Монтаж за 1 день","description":"Бригады с опытом от 7 лет. Чистый монтаж без пыли и грязи."},{"title":"Договор и гарантия 15 лет","description":"Официальная гарантия на полотна и монтажные швы по договору."},{"title":"Бесплатный расчет за 10 минут","description":"Зафиксируем персональную скидку 10% при записи через онлайн-сервис."}]}'::jsonb,
   true,
   NOW(),
   NOW()
@@ -59,11 +59,307 @@ SET
 
 INSERT INTO public.tenants (slug, name, city, phone, config, active, created_at, updated_at)
 VALUES (
+  'geometria',
+  'Геометрия',
+  'Москва',
+  '+7 (966) 976-42-69',
+  '{"slug":"geometria","name":"Геометрия","tagline":"Дизайнерские потолки и теневой профиль. Рейтинг 5.0 (432 отзыва)","city":"Москва","phone":"+7 (966) 976-42-69","telegram":"@geometry777","whatsapp":"79669764269","address":"Часовая улица, 9","workingHours":{"start":"09:00","end":"20:00","slotDurationMinutes":120,"bufferMinutes":45},"theme":{"accentColor":"#D97706","accentForeground":"#000000","borderRadius":"0.75rem","mode":"dark"},"pricing":{"minOrderAmount":11000,"canvases":[{"id":"msd-premium","name":"MSD Premium Матовый","description":"Идеально гладкая матовая поверхность без отблесков, плотность 240 г/м²","pricePerSqM":850,"popular":true},{"id":"descor-textile","name":"Descor Эко-ткань (Германия)","description":"Премиальное бесшовное дышащее полотно с эффектом штукатурки","pricePerSqM":2400},{"id":"pongs-satin","name":"Pongs Сатиновый","description":"Шелковистая фактура с мягким рассеиванием света","pricePerSqM":950}],"profiles":[{"id":"eurokraab","name":"Теневой профиль EuroKRAAB 4.0","description":"Эстетичный зазор 6 мм вдоль стен без резиновых заглушек и плинтусов","pricePerMeter":1200,"tag":"Хит 2026"},{"id":"floating-led","name":"Парящий потолок с подсветкой","description":"Контурное светодиодное свечение по периметру стен","pricePerMeter":1500},{"id":"classic-pvc","name":"Классический с маскировочной лентой","description":"Стандартный надежный багет с аккуратной белой вставкой","pricePerMeter":350}],"lighting":[{"id":"magnetic-tracks","name":"Врезная магнитная трек-система","description":"Шинопровод в плоскости полотна со сменными светильниками","pricePerUnit":3800,"unit":"м.пог","defaultQty":0},{"id":"light-lines","name":"Световые линии (SLOTT)","description":"Встроенные яркие линейные LED-светильники","pricePerUnit":2900,"unit":"м.пог","defaultQty":0},{"id":"spotlights","name":"Точечные споты GX53 / глубокие споты","description":"Монтаж платформы, проводка и коммутация светильника","pricePerUnit":650,"unit":"шт","defaultQty":4},{"id":"chandelier","name":"Монтаж люстры","description":"Усиленная закладная под вес до 20 кг","pricePerUnit":1200,"unit":"шт","defaultQty":1}],"curtainNiches":[{"id":"niche-pk5","name":"Алюминиевый карниз ПК-5 (3 ряда)","pricePerMeter":2400},{"id":"niche-simple","name":"Скрытая ниша с перегибом полотна","pricePerMeter":1400}]},"surveyors":[{"id":"srv-geometria-1","name":"Борис Широков","role":"Ведущий инженер-технолог","phone":"+7 (966) 976-42-69","districts":["Все районы Москвы и МО"],"active":true}],"features":[{"title":"Экспертиза в теневых профилях","description":"Официальный сертифицированный партнер EuroKRAAB и Lumfer."},{"title":"Точный лазерный проект","description":"Проектирование световых линий и трековых систем с гарантией стыков."},{"title":"Работа по дизайн-проектам","description":"Реализуем сложные узлы примыкания точно по чертежам дизайнеров."}]}'::jsonb,
+  true,
+  NOW(),
+  NOW()
+)
+ON CONFLICT (slug) DO UPDATE
+SET
+  name = EXCLUDED.name,
+  city = EXCLUDED.city,
+  phone = EXCLUDED.phone,
+  config = EXCLUDED.config,
+  updated_at = NOW();
+
+
+INSERT INTO public.resources (id, tenant_slug, name, role, phone, active)
+VALUES (
+  'srv-geometria-1',
+  'geometria',
+  'Борис Широков',
+  'Ведущий инженер-технолог',
+  '+7 (966) 976-42-69',
+  true
+)
+ON CONFLICT (id) DO UPDATE
+SET
+  name = EXCLUDED.name,
+  role = EXCLUDED.role,
+  phone = EXCLUDED.phone,
+  active = EXCLUDED.active;
+
+
+INSERT INTO public.tenants (slug, name, city, phone, config, active, created_at, updated_at)
+VALUES (
+  'intstyle',
+  'ИнтСтайл',
+  'Москва',
+  '+7 (985) 920-28-31',
+  '{"slug":"intstyle","name":"ИнтСтайл","tagline":"Студия эстетичных потолков и трекового света. Рейтинг 4.9 (218 отзывов)","city":"Москва","phone":"+7 (985) 920-28-31","telegram":"@potolok_stail","whatsapp":"79859202831","address":"Перервинский бульвар, 22 к2","workingHours":{"start":"09:00","end":"20:30","slotDurationMinutes":120,"bufferMinutes":45},"theme":{"accentColor":"#EA580C","accentForeground":"#000000","borderRadius":"0.75rem","mode":"dark"},"pricing":{"minOrderAmount":10500,"canvases":[{"id":"msd-premium","name":"MSD Premium Матовый","description":"Идеально гладкая матовая поверхность без отблесков, плотность 240 г/м²","pricePerSqM":850,"popular":true},{"id":"descor-textile","name":"Descor Эко-ткань (Германия)","description":"Премиальное бесшовное дышащее полотно с эффектом штукатурки","pricePerSqM":2400},{"id":"pongs-satin","name":"Pongs Сатиновый","description":"Шелковистая фактура с мягким рассеиванием света","pricePerSqM":950}],"profiles":[{"id":"eurokraab","name":"Теневой профиль EuroKRAAB 4.0","description":"Эстетичный зазор 6 мм вдоль стен без резиновых заглушек и плинтусов","pricePerMeter":1200,"tag":"Хит 2026"},{"id":"floating-led","name":"Парящий потолок с подсветкой","description":"Контурное светодиодное свечение по периметру стен","pricePerMeter":1500},{"id":"classic-pvc","name":"Классический с маскировочной лентой","description":"Стандартный надежный багет с аккуратной белой вставкой","pricePerMeter":350}],"lighting":[{"id":"magnetic-tracks","name":"Врезная магнитная трек-система","description":"Шинопровод в плоскости полотна со сменными светильниками","pricePerUnit":3800,"unit":"м.пог","defaultQty":0},{"id":"light-lines","name":"Световые линии (SLOTT)","description":"Встроенные яркие линейные LED-светильники","pricePerUnit":2900,"unit":"м.пог","defaultQty":0},{"id":"spotlights","name":"Точечные споты GX53 / глубокие споты","description":"Монтаж платформы, проводка и коммутация светильника","pricePerUnit":650,"unit":"шт","defaultQty":4},{"id":"chandelier","name":"Монтаж люстры","description":"Усиленная закладная под вес до 20 кг","pricePerUnit":1200,"unit":"шт","defaultQty":1}],"curtainNiches":[{"id":"niche-pk5","name":"Алюминиевый карниз ПК-5 (3 ряда)","pricePerMeter":2400},{"id":"niche-simple","name":"Скрытая ниша с перегибом полотна","pricePerMeter":1400}]},"surveyors":[{"id":"srv-intstyle-1","name":"Евгений Кульков","role":"Ведущий инженер-технолог","phone":"+7 (985) 920-28-31","districts":["Все районы Москвы и МО"],"active":true}],"features":[{"title":"Архитектурный свет","description":"Проектирование современных сценариев освещения для гостиных и спален."},{"title":"Безупречные углы","description":"Лазерная подгонка теневого профиля с идеальной геометрией стыков."},{"title":"Договор и гарантия","description":"Официальное гарантийное обслуживание в течение всего срока службы."}]}'::jsonb,
+  true,
+  NOW(),
+  NOW()
+)
+ON CONFLICT (slug) DO UPDATE
+SET
+  name = EXCLUDED.name,
+  city = EXCLUDED.city,
+  phone = EXCLUDED.phone,
+  config = EXCLUDED.config,
+  updated_at = NOW();
+
+
+INSERT INTO public.resources (id, tenant_slug, name, role, phone, active)
+VALUES (
+  'srv-intstyle-1',
+  'intstyle',
+  'Евгений Кульков',
+  'Ведущий инженер-технолог',
+  '+7 (985) 920-28-31',
+  true
+)
+ON CONFLICT (id) DO UPDATE
+SET
+  name = EXCLUDED.name,
+  role = EXCLUDED.role,
+  phone = EXCLUDED.phone,
+  active = EXCLUDED.active;
+
+
+INSERT INTO public.tenants (slug, name, city, phone, config, active, created_at, updated_at)
+VALUES (
+  'master-potolkov',
+  'Мастер Потолков',
+  'Москва',
+  '+7 (910) 591-50-50',
+  '{"slug":"master-potolkov","name":"Мастер Потолков","tagline":"Потолочные системы и декоративные покрытия. Рейтинг 5.0 (372 отзыва)","city":"Москва","phone":"+7 (910) 591-50-50","telegram":"@masterpotolkov_msk","whatsapp":"79105915050","address":"Киевское шоссе, 22-й км, 4, стр. 2","workingHours":{"start":"09:00","end":"20:00","slotDurationMinutes":120,"bufferMinutes":45},"theme":{"accentColor":"#B38938","accentForeground":"#000000","borderRadius":"0.75rem","mode":"dark"},"pricing":{"minOrderAmount":9500,"canvases":[{"id":"msd-premium","name":"MSD Premium Матовый","description":"Идеально гладкая матовая поверхность без отблесков, плотность 240 г/м²","pricePerSqM":850,"popular":true},{"id":"descor-textile","name":"Descor Эко-ткань (Германия)","description":"Премиальное бесшовное дышащее полотно с эффектом штукатурки","pricePerSqM":2400},{"id":"pongs-satin","name":"Pongs Сатиновый","description":"Шелковистая фактура с мягким рассеиванием света","pricePerSqM":950}],"profiles":[{"id":"eurokraab","name":"Теневой профиль EuroKRAAB 4.0","description":"Эстетичный зазор 6 мм вдоль стен без резиновых заглушек и плинтусов","pricePerMeter":1200,"tag":"Хит 2026"},{"id":"floating-led","name":"Парящий потолок с подсветкой","description":"Контурное светодиодное свечение по периметру стен","pricePerMeter":1500},{"id":"classic-pvc","name":"Классический с маскировочной лентой","description":"Стандартный надежный багет с аккуратной белой вставкой","pricePerMeter":350}],"lighting":[{"id":"magnetic-tracks","name":"Врезная магнитная трек-система","description":"Шинопровод в плоскости полотна со сменными светильниками","pricePerUnit":3800,"unit":"м.пог","defaultQty":0},{"id":"light-lines","name":"Световые линии (SLOTT)","description":"Встроенные яркие линейные LED-светильники","pricePerUnit":2900,"unit":"м.пог","defaultQty":0},{"id":"spotlights","name":"Точечные споты GX53 / глубокие споты","description":"Монтаж платформы, проводка и коммутация светильника","pricePerUnit":650,"unit":"шт","defaultQty":4},{"id":"chandelier","name":"Монтаж люстры","description":"Усиленная закладная под вес до 20 кг","pricePerUnit":1200,"unit":"шт","defaultQty":1}],"curtainNiches":[{"id":"niche-pk5","name":"Алюминиевый карниз ПК-5 (3 ряда)","pricePerMeter":2400},{"id":"niche-simple","name":"Скрытая ниша с перегибом полотна","pricePerMeter":1400}]},"surveyors":[{"id":"srv-master-potolkov-1","name":"Руслан Зиганшин","role":"Ведущий инженер-технолог","phone":"+7 (910) 591-50-50","districts":["Все районы Москвы и МО"],"active":true}],"features":[{"title":"Мастера высшей квалификации","description":"Опыт каждого монтажника в штате компании от 6 лет."},{"title":"Экологичные материалы","description":"Полотна без запаха с европейскими сертификатами пожарной безопасности."},{"title":"Быстрый выезд замерщика","description":"Инженер приедет в удобный 2-часовой интервал в день обращения."}]}'::jsonb,
+  true,
+  NOW(),
+  NOW()
+)
+ON CONFLICT (slug) DO UPDATE
+SET
+  name = EXCLUDED.name,
+  city = EXCLUDED.city,
+  phone = EXCLUDED.phone,
+  config = EXCLUDED.config,
+  updated_at = NOW();
+
+
+INSERT INTO public.resources (id, tenant_slug, name, role, phone, active)
+VALUES (
+  'srv-master-potolkov-1',
+  'master-potolkov',
+  'Руслан Зиганшин',
+  'Ведущий инженер-технолог',
+  '+7 (910) 591-50-50',
+  true
+)
+ON CONFLICT (id) DO UPDATE
+SET
+  name = EXCLUDED.name,
+  role = EXCLUDED.role,
+  phone = EXCLUDED.phone,
+  active = EXCLUDED.active;
+
+
+INSERT INTO public.tenants (slug, name, city, phone, config, active, created_at, updated_at)
+VALUES (
+  'potolki-nova',
+  'Потолки Нова',
+  'Москва',
+  '+7 (499) 398-04-88',
+  '{"slug":"potolki-nova","name":"Потолки Нова","tagline":"Световые потолки и теневые решения в Москве. Рейтинг 5.0 (222 отзыва)","city":"Москва","phone":"+7 (499) 398-04-88","telegram":"@nova_potolki_msk","whatsapp":"74993980488","address":"Пресненская наб., 12","workingHours":{"start":"09:00","end":"21:30","slotDurationMinutes":120,"bufferMinutes":45},"theme":{"accentColor":"#4F46E5","accentForeground":"#000000","borderRadius":"0.75rem","mode":"dark"},"pricing":{"minOrderAmount":12000,"canvases":[{"id":"msd-premium","name":"MSD Premium Матовый","description":"Идеально гладкая матовая поверхность без отблесков, плотность 240 г/м²","pricePerSqM":850,"popular":true},{"id":"descor-textile","name":"Descor Эко-ткань (Германия)","description":"Премиальное бесшовное дышащее полотно с эффектом штукатурки","pricePerSqM":2400},{"id":"pongs-satin","name":"Pongs Сатиновый","description":"Шелковистая фактура с мягким рассеиванием света","pricePerSqM":950}],"profiles":[{"id":"eurokraab","name":"Теневой профиль EuroKRAAB 4.0","description":"Эстетичный зазор 6 мм вдоль стен без резиновых заглушек и плинтусов","pricePerMeter":1200,"tag":"Хит 2026"},{"id":"floating-led","name":"Парящий потолок с подсветкой","description":"Контурное светодиодное свечение по периметру стен","pricePerMeter":1500},{"id":"classic-pvc","name":"Классический с маскировочной лентой","description":"Стандартный надежный багет с аккуратной белой вставкой","pricePerMeter":350}],"lighting":[{"id":"magnetic-tracks","name":"Врезная магнитная трек-система","description":"Шинопровод в плоскости полотна со сменными светильниками","pricePerUnit":3800,"unit":"м.пог","defaultQty":0},{"id":"light-lines","name":"Световые линии (SLOTT)","description":"Встроенные яркие линейные LED-светильники","pricePerUnit":2900,"unit":"м.пог","defaultQty":0},{"id":"spotlights","name":"Точечные споты GX53 / глубокие споты","description":"Монтаж платформы, проводка и коммутация светильника","pricePerUnit":650,"unit":"шт","defaultQty":4},{"id":"chandelier","name":"Монтаж люстры","description":"Усиленная закладная под вес до 20 кг","pricePerUnit":1200,"unit":"шт","defaultQty":1}],"curtainNiches":[{"id":"niche-pk5","name":"Алюминиевый карниз ПК-5 (3 ряда)","pricePerMeter":2400},{"id":"niche-simple","name":"Скрытая ниша с перегибом полотна","pricePerMeter":1400}]},"surveyors":[{"id":"srv-potolki-nova-1","name":"Константин Белов","role":"Ведущий инженер-технолог","phone":"+7 (499) 398-04-88","districts":["Все районы Москвы и МО"],"active":true}],"features":[{"title":"Премиум уровень Сити","description":"Реализация эксклюзивных проектов в жилых комплексах бизнес- и премиум-класса."},{"title":"Скрытые карнизы ПК-5 и Lumfer","description":"Интеграция электрокарнизов и штор в плоскость потолка."},{"title":"Бесшумный монтаж","description":"Использование современных газовых и аккумуляторных монтажных пистолетов."}]}'::jsonb,
+  true,
+  NOW(),
+  NOW()
+)
+ON CONFLICT (slug) DO UPDATE
+SET
+  name = EXCLUDED.name,
+  city = EXCLUDED.city,
+  phone = EXCLUDED.phone,
+  config = EXCLUDED.config,
+  updated_at = NOW();
+
+
+INSERT INTO public.resources (id, tenant_slug, name, role, phone, active)
+VALUES (
+  'srv-potolki-nova-1',
+  'potolki-nova',
+  'Константин Белов',
+  'Ведущий инженер-технолог',
+  '+7 (499) 398-04-88',
+  true
+)
+ON CONFLICT (id) DO UPDATE
+SET
+  name = EXCLUDED.name,
+  role = EXCLUDED.role,
+  phone = EXCLUDED.phone,
+  active = EXCLUDED.active;
+
+
+INSERT INTO public.tenants (slug, name, city, phone, config, active, created_at, updated_at)
+VALUES (
+  'potolki-smith',
+  'Потолки Смит',
+  'Москва',
+  '+7 (916) 353-20-70',
+  '{"slug":"potolki-smith","name":"Потолки Смит","tagline":"Архитектурные потолки и световой дизайн. Рейтинг 5.0 (197 отзывов)","city":"Москва","phone":"+7 (916) 353-20-70","telegram":"@potolkismith","whatsapp":"79163532070","address":"Болотниковская ул., 11, корп. 1","workingHours":{"start":"09:00","end":"20:00","slotDurationMinutes":120,"bufferMinutes":45},"theme":{"accentColor":"#A16207","accentForeground":"#000000","borderRadius":"0.75rem","mode":"dark"},"pricing":{"minOrderAmount":11500,"canvases":[{"id":"msd-premium","name":"MSD Premium Матовый","description":"Идеально гладкая матовая поверхность без отблесков, плотность 240 г/м²","pricePerSqM":850,"popular":true},{"id":"descor-textile","name":"Descor Эко-ткань (Германия)","description":"Премиальное бесшовное дышащее полотно с эффектом штукатурки","pricePerSqM":2400},{"id":"pongs-satin","name":"Pongs Сатиновый","description":"Шелковистая фактура с мягким рассеиванием света","pricePerSqM":950}],"profiles":[{"id":"eurokraab","name":"Теневой профиль EuroKRAAB 4.0","description":"Эстетичный зазор 6 мм вдоль стен без резиновых заглушек и плинтусов","pricePerMeter":1200,"tag":"Хит 2026"},{"id":"floating-led","name":"Парящий потолок с подсветкой","description":"Контурное светодиодное свечение по периметру стен","pricePerMeter":1500},{"id":"classic-pvc","name":"Классический с маскировочной лентой","description":"Стандартный надежный багет с аккуратной белой вставкой","pricePerMeter":350}],"lighting":[{"id":"magnetic-tracks","name":"Врезная магнитная трек-система","description":"Шинопровод в плоскости полотна со сменными светильниками","pricePerUnit":3800,"unit":"м.пог","defaultQty":0},{"id":"light-lines","name":"Световые линии (SLOTT)","description":"Встроенные яркие линейные LED-светильники","pricePerUnit":2900,"unit":"м.пог","defaultQty":0},{"id":"spotlights","name":"Точечные споты GX53 / глубокие споты","description":"Монтаж платформы, проводка и коммутация светильника","pricePerUnit":650,"unit":"шт","defaultQty":4},{"id":"chandelier","name":"Монтаж люстры","description":"Усиленная закладная под вес до 20 кг","pricePerUnit":1200,"unit":"шт","defaultQty":1}],"curtainNiches":[{"id":"niche-pk5","name":"Алюминиевый карниз ПК-5 (3 ряда)","pricePerMeter":2400},{"id":"niche-simple","name":"Скрытая ниша с перегибом полотна","pricePerMeter":1400}]},"surveyors":[{"id":"srv-potolki-smith-1","name":"Артур Гильманов","role":"Ведущий инженер-технолог","phone":"+7 (916) 353-20-70","districts":["Все районы Москвы и МО"],"active":true}],"features":[{"title":"Индивидуальный световой расчет","description":"Подбор люксов освещенности под назначение каждой комнаты."},{"title":"Теневой евро-шов","description":"Никаких резиновых плинтусов и заглушек — только лаконичная тень."},{"title":"Эко-полотна Descor и Clipso","description":"Премиальные дышащие тканевые потолки европейского производства."}]}'::jsonb,
+  true,
+  NOW(),
+  NOW()
+)
+ON CONFLICT (slug) DO UPDATE
+SET
+  name = EXCLUDED.name,
+  city = EXCLUDED.city,
+  phone = EXCLUDED.phone,
+  config = EXCLUDED.config,
+  updated_at = NOW();
+
+
+INSERT INTO public.resources (id, tenant_slug, name, role, phone, active)
+VALUES (
+  'srv-potolki-smith-1',
+  'potolki-smith',
+  'Артур Гильманов',
+  'Ведущий инженер-технолог',
+  '+7 (916) 353-20-70',
+  true
+)
+ON CONFLICT (id) DO UPDATE
+SET
+  name = EXCLUDED.name,
+  role = EXCLUDED.role,
+  phone = EXCLUDED.phone,
+  active = EXCLUDED.active;
+
+
+INSERT INTO public.tenants (slug, name, city, phone, config, active, created_at, updated_at)
+VALUES (
+  'potolochkin',
+  'Потолочкин',
+  'Москва и МО',
+  '+7 (965) 366-58-95',
+  '{"slug":"potolochkin","name":"Потолочкин","tagline":"Студия натяжных потолков с 2012 года. Рейтинг 4.9 (1533 отзыва)","city":"Москва и МО","phone":"+7 (965) 366-58-95","telegram":"@ivan_potolochkin_bot","whatsapp":"79653665895","address":"Семёновский переулок, 15","workingHours":{"start":"09:00","end":"21:00","slotDurationMinutes":120,"bufferMinutes":45},"theme":{"accentColor":"#0D9488","accentForeground":"#000000","borderRadius":"0.75rem","mode":"dark"},"pricing":{"minOrderAmount":9000,"canvases":[{"id":"msd-premium","name":"MSD Premium Матовый","description":"Идеально гладкая матовая поверхность без отблесков, плотность 240 г/м²","pricePerSqM":850,"popular":true},{"id":"descor-textile","name":"Descor Эко-ткань (Германия)","description":"Премиальное бесшовное дышащее полотно с эффектом штукатурки","pricePerSqM":2400},{"id":"pongs-satin","name":"Pongs Сатиновый","description":"Шелковистая фактура с мягким рассеиванием света","pricePerSqM":950}],"profiles":[{"id":"eurokraab","name":"Теневой профиль EuroKRAAB 4.0","description":"Эстетичный зазор 6 мм вдоль стен без резиновых заглушек и плинтусов","pricePerMeter":1200,"tag":"Хит 2026"},{"id":"floating-led","name":"Парящий потолок с подсветкой","description":"Контурное светодиодное свечение по периметру стен","pricePerMeter":1500},{"id":"classic-pvc","name":"Классический с маскировочной лентой","description":"Стандартный надежный багет с аккуратной белой вставкой","pricePerMeter":350}],"lighting":[{"id":"magnetic-tracks","name":"Врезная магнитная трек-система","description":"Шинопровод в плоскости полотна со сменными светильниками","pricePerUnit":3800,"unit":"м.пог","defaultQty":0},{"id":"light-lines","name":"Световые линии (SLOTT)","description":"Встроенные яркие линейные LED-светильники","pricePerUnit":2900,"unit":"м.пог","defaultQty":0},{"id":"spotlights","name":"Точечные споты GX53 / глубокие споты","description":"Монтаж платформы, проводка и коммутация светильника","pricePerUnit":650,"unit":"шт","defaultQty":4},{"id":"chandelier","name":"Монтаж люстры","description":"Усиленная закладная под вес до 20 кг","pricePerUnit":1200,"unit":"шт","defaultQty":1}],"curtainNiches":[{"id":"niche-pk5","name":"Алюминиевый карниз ПК-5 (3 ряда)","pricePerMeter":2400},{"id":"niche-simple","name":"Скрытая ниша с перегибом полотна","pricePerMeter":1400}]},"surveyors":[{"id":"srv-potolochkin-1","name":"Сергей Семенов","role":"Ведущий инженер-технолог","phone":"+7 (965) 366-58-95","districts":["Все районы Москвы и МО"],"active":true}],"features":[{"title":"Опыт с 2012 года","description":"Более 15 000 смонтированных объектов в Москве и Подмосковье."},{"title":"Бесплатный 3D-замер","description":"Привезем образцы всех фактур и рассчитаем смету на месте за 15 минут."},{"title":"Гарантия 15 лет","description":"Официальный договор и гарантийный сертификат на все полотна и швы."}]}'::jsonb,
+  true,
+  NOW(),
+  NOW()
+)
+ON CONFLICT (slug) DO UPDATE
+SET
+  name = EXCLUDED.name,
+  city = EXCLUDED.city,
+  phone = EXCLUDED.phone,
+  config = EXCLUDED.config,
+  updated_at = NOW();
+
+
+INSERT INTO public.resources (id, tenant_slug, name, role, phone, active)
+VALUES (
+  'srv-potolochkin-1',
+  'potolochkin',
+  'Сергей Семенов',
+  'Ведущий инженер-технолог',
+  '+7 (965) 366-58-95',
+  true
+)
+ON CONFLICT (id) DO UPDATE
+SET
+  name = EXCLUDED.name,
+  role = EXCLUDED.role,
+  phone = EXCLUDED.phone,
+  active = EXCLUDED.active;
+
+
+INSERT INTO public.tenants (slug, name, city, phone, config, active, created_at, updated_at)
+VALUES (
+  'potolok-alyanse',
+  'Потолок-Альянс',
+  'Москва',
+  '+7 (926) 511-00-86',
+  '{"slug":"potolok-alyanse","name":"Потолок-Альянс","tagline":"Премиальные натяжные потолки под ключ. Рейтинг 5.0 (478 отзывов)","city":"Москва","phone":"+7 (926) 511-00-86","telegram":"@potolok_alyanse","whatsapp":"79265110086","address":"1-я Останкинская ул., 1А","workingHours":{"start":"08:30","end":"21:00","slotDurationMinutes":120,"bufferMinutes":45},"theme":{"accentColor":"#059669","accentForeground":"#000000","borderRadius":"0.75rem","mode":"dark"},"pricing":{"minOrderAmount":9000,"canvases":[{"id":"msd-premium","name":"MSD Premium Матовый","description":"Идеально гладкая матовая поверхность без отблесков, плотность 240 г/м²","pricePerSqM":850,"popular":true},{"id":"descor-textile","name":"Descor Эко-ткань (Германия)","description":"Премиальное бесшовное дышащее полотно с эффектом штукатурки","pricePerSqM":2400},{"id":"pongs-satin","name":"Pongs Сатиновый","description":"Шелковистая фактура с мягким рассеиванием света","pricePerSqM":950}],"profiles":[{"id":"eurokraab","name":"Теневой профиль EuroKRAAB 4.0","description":"Эстетичный зазор 6 мм вдоль стен без резиновых заглушек и плинтусов","pricePerMeter":1200,"tag":"Хит 2026"},{"id":"floating-led","name":"Парящий потолок с подсветкой","description":"Контурное светодиодное свечение по периметру стен","pricePerMeter":1500},{"id":"classic-pvc","name":"Классический с маскировочной лентой","description":"Стандартный надежный багет с аккуратной белой вставкой","pricePerMeter":350}],"lighting":[{"id":"magnetic-tracks","name":"Врезная магнитная трек-система","description":"Шинопровод в плоскости полотна со сменными светильниками","pricePerUnit":3800,"unit":"м.пог","defaultQty":0},{"id":"light-lines","name":"Световые линии (SLOTT)","description":"Встроенные яркие линейные LED-светильники","pricePerUnit":2900,"unit":"м.пог","defaultQty":0},{"id":"spotlights","name":"Точечные споты GX53 / глубокие споты","description":"Монтаж платформы, проводка и коммутация светильника","pricePerUnit":650,"unit":"шт","defaultQty":4},{"id":"chandelier","name":"Монтаж люстры","description":"Усиленная закладная под вес до 20 кг","pricePerUnit":1200,"unit":"шт","defaultQty":1}],"curtainNiches":[{"id":"niche-pk5","name":"Алюминиевый карниз ПК-5 (3 ряда)","pricePerMeter":2400},{"id":"niche-simple","name":"Скрытая ниша с перегибом полотна","pricePerMeter":1400}]},"surveyors":[{"id":"srv-potolok-alyanse-1","name":"Шамиль Нагметов","role":"Ведущий инженер-технолог","phone":"+7 (926) 511-00-86","districts":["Все районы Москвы и МО"],"active":true}],"features":[{"title":"Безупречная репутация","description":"Более 450 положительных отзывов на независимых сервисах."},{"title":"Фиксация цены","description":"Смета не меняется в процессе монтажа — всё строго по договору."},{"title":"Премиум профили","description":"Теневые, парящие и бесщелевые решения ведущих производителей."}]}'::jsonb,
+  true,
+  NOW(),
+  NOW()
+)
+ON CONFLICT (slug) DO UPDATE
+SET
+  name = EXCLUDED.name,
+  city = EXCLUDED.city,
+  phone = EXCLUDED.phone,
+  config = EXCLUDED.config,
+  updated_at = NOW();
+
+
+INSERT INTO public.resources (id, tenant_slug, name, role, phone, active)
+VALUES (
+  'srv-potolok-alyanse-1',
+  'potolok-alyanse',
+  'Шамиль Нагметов',
+  'Ведущий инженер-технолог',
+  '+7 (926) 511-00-86',
+  true
+)
+ON CONFLICT (id) DO UPDATE
+SET
+  name = EXCLUDED.name,
+  role = EXCLUDED.role,
+  phone = EXCLUDED.phone,
+  active = EXCLUDED.active;
+
+
+INSERT INTO public.tenants (slug, name, city, phone, config, active, created_at, updated_at)
+VALUES (
+  'rumexpert',
+  'РумЭксперт',
+  'Москва',
+  '+7 (495) 135-00-36',
+  '{"slug":"rumexpert","name":"РумЭксперт","tagline":"Потолочные системы и интерьерный свет. Рейтинг 5.0 (895 отзывов)","city":"Москва","phone":"+7 (495) 135-00-36","telegram":"@rumexpert","whatsapp":"74951350036","address":"ул. Грина, 15","workingHours":{"start":"09:00","end":"21:00","slotDurationMinutes":120,"bufferMinutes":45},"theme":{"accentColor":"#6366F1","accentForeground":"#000000","borderRadius":"0.75rem","mode":"dark"},"pricing":{"minOrderAmount":10000,"canvases":[{"id":"msd-premium","name":"MSD Premium Матовый","description":"Идеально гладкая матовая поверхность без отблесков, плотность 240 г/м²","pricePerSqM":850,"popular":true},{"id":"descor-textile","name":"Descor Эко-ткань (Германия)","description":"Премиальное бесшовное дышащее полотно с эффектом штукатурки","pricePerSqM":2400},{"id":"pongs-satin","name":"Pongs Сатиновый","description":"Шелковистая фактура с мягким рассеиванием света","pricePerSqM":950}],"profiles":[{"id":"eurokraab","name":"Теневой профиль EuroKRAAB 4.0","description":"Эстетичный зазор 6 мм вдоль стен без резиновых заглушек и плинтусов","pricePerMeter":1200,"tag":"Хит 2026"},{"id":"floating-led","name":"Парящий потолок с подсветкой","description":"Контурное светодиодное свечение по периметру стен","pricePerMeter":1500},{"id":"classic-pvc","name":"Классический с маскировочной лентой","description":"Стандартный надежный багет с аккуратной белой вставкой","pricePerMeter":350}],"lighting":[{"id":"magnetic-tracks","name":"Врезная магнитная трек-система","description":"Шинопровод в плоскости полотна со сменными светильниками","pricePerUnit":3800,"unit":"м.пог","defaultQty":0},{"id":"light-lines","name":"Световые линии (SLOTT)","description":"Встроенные яркие линейные LED-светильники","pricePerUnit":2900,"unit":"м.пог","defaultQty":0},{"id":"spotlights","name":"Точечные споты GX53 / глубокие споты","description":"Монтаж платформы, проводка и коммутация светильника","pricePerUnit":650,"unit":"шт","defaultQty":4},{"id":"chandelier","name":"Монтаж люстры","description":"Усиленная закладная под вес до 20 кг","pricePerUnit":1200,"unit":"шт","defaultQty":1}],"curtainNiches":[{"id":"niche-pk5","name":"Алюминиевый карниз ПК-5 (3 ряда)","pricePerMeter":2400},{"id":"niche-simple","name":"Скрытая ниша с перегибом полотна","pricePerMeter":1400}]},"surveyors":[{"id":"srv-rumexpert-1","name":"Сулико Сихарулидзе","role":"Ведущий инженер-технолог","phone":"+7 (495) 135-00-36","districts":["Все районы Москвы и МО"],"active":true}],"features":[{"title":"Интегрированный свет","description":"Подбор и расчет магнитных треков, спотов и парящей контурной подсветки."},{"title":"Бесплатная смета","description":"Детальный расчет стоимости работ и комплектующих прямо на объекте."},{"title":"Без пыли и грязи","description":"Защита чистовой отделки и уборка после завершения монтажа."}]}'::jsonb,
+  true,
+  NOW(),
+  NOW()
+)
+ON CONFLICT (slug) DO UPDATE
+SET
+  name = EXCLUDED.name,
+  city = EXCLUDED.city,
+  phone = EXCLUDED.phone,
+  config = EXCLUDED.config,
+  updated_at = NOW();
+
+
+INSERT INTO public.resources (id, tenant_slug, name, role, phone, active)
+VALUES (
+  'srv-rumexpert-1',
+  'rumexpert',
+  'Сулико Сихарулидзе',
+  'Ведущий инженер-технолог',
+  '+7 (495) 135-00-36',
+  true
+)
+ON CONFLICT (id) DO UPDATE
+SET
+  name = EXCLUDED.name,
+  role = EXCLUDED.role,
+  phone = EXCLUDED.phone,
+  active = EXCLUDED.active;
+
+
+INSERT INTO public.tenants (slug, name, city, phone, config, active, created_at, updated_at)
+VALUES (
   'status-potolok',
   'STATUS Потолки',
   'Москва и МО',
   '+7 (495) 890-44-22',
-  '{"slug":"status-potolok","name":"STATUS Потолки","tagline":"Премиальные теневые потолки EuroKRAAB и трековое освещение","city":"Москва и МО","phone":"+7 (495) 890-44-22","telegram":"@status_potolok_bot","whatsapp":"+79958904422","address":"Пресненская наб., 12","workingHours":{"start":"09:00","end":"21:00","slotDurationMinutes":120,"bufferMinutes":45},"theme":{"accentColor":"#f59e0b","accentForeground":"#000000","borderRadius":"0.75rem","mode":"dark"},"pricing":{"minOrderAmount":12000,"canvases":[{"id":"msd-premium","name":"MSD Premium Матовый","description":"Идеально гладкая матовая поверхность без отблесков, плотность 240 г/м²","pricePerSqM":850,"popular":true},{"id":"descor-textile","name":"Descor Эко-ткань (Германия)","description":"Премиальное бесшовное дышащее полотно с эффектом оштукатуренного потолка","pricePerSqM":2400},{"id":"pongs-satin","name":"Pongs Сатиновый","description":"Нежная шелковистая текстура с мягким рассеиванием света","pricePerSqM":950}],"profiles":[{"id":"eurokraab","name":"Теневой профиль EuroKRAAB 4.0","description":"Эстетичный зазор 6 мм между стеной и потолком без плинтусов и резиновых заглушек","pricePerMeter":1200,"tag":"Хит 2026"},{"id":"floating-led","name":"Парящий потолок с подсветкой","description":"Скрытый профиль с мягким контурным свечением по периметру стен","pricePerMeter":1500},{"id":"classic-pvc","name":"Классический с маскировочной лентой","description":"Надежный алюминиевый багет с аккуратной белой декоративной заглушкой","pricePerMeter":350}],"lighting":[{"id":"magnetic-tracks","name":"Врезная магнитная трек-система","description":"Утопленный в один уровень шинопровод со сменными светильниками","pricePerUnit":3800,"unit":"м.пог","defaultQty":0},{"id":"light-lines","name":"Световые линии (SLOTT / Flexy)","description":"Яркие геометрические световые полосы в плоскости потолка","pricePerUnit":2900,"unit":"м.пог","defaultQty":0},{"id":"spotlights","name":"Точечные светильники GX53 / глубокие споты","description":"Монтаж закладной платформы, проводки и подключение светильника","pricePerUnit":650,"unit":"шт","defaultQty":4},{"id":"chandelier","name":"Крепление люстры на крюк или планку","description":"Усиленная закладная под вес до 20 кг с подключением к выключателю","pricePerUnit":1200,"unit":"шт","defaultQty":1}],"curtainNiches":[{"id":"niche-pk5","name":"Алюминиевый карниз ПК-5 (3 ряда для штор)","pricePerMeter":2400},{"id":"niche-simple","name":"Скрытая ниша с перегибом полотна","pricePerMeter":1400}]},"surveyors":[{"id":"srv-1","name":"Алексей Смирнов","role":"Ведущий инженер-технолог","phone":"+7 (995) 890-44-21","districts":["ЦАО","ЗАО","СЗАО"],"active":true},{"id":"srv-2","name":"Дмитрий Власов","role":"Специалист по световым решениям","phone":"+7 (995) 890-44-22","districts":["ЮЗАО","ЮАО","Новая Москва"],"active":true}],"features":[{"title":"Бесплатный выезд технолога с образцами","description":"Привезем чемодан образцов всех профилей EuroKRAAB, треков и каталоги полотен прямо к вам на объект."},{"title":"Лазерный 3D-замер и точная смета","description":"Рассчитаем фиксированную смету на месте за 15 минут без скрытых доплат в ходе монтажа."},{"title":"Монтаж с чистым пылесосом","description":"Монтируем алюминиевый багет с пылеудалением. Чистота в квартире после завершения работ."}]}'::jsonb,
+  '{"slug":"status-potolok","name":"STATUS Потолки","tagline":"Премиальные теневые потолки EuroKRAAB и трековое освещение","city":"Москва и МО","phone":"+7 (495) 890-44-22","telegram":"@status_potolok_bot","whatsapp":"+79958904422","address":"Пресненская наб., 12","workingHours":{"start":"09:00","end":"21:00","slotDurationMinutes":120,"bufferMinutes":45},"theme":{"accentColor":"#9C7428","accentForeground":"#FFFFFF","borderRadius":"0.75rem","mode":"light"},"pricing":{"minOrderAmount":12000,"canvases":[{"id":"msd-premium","name":"MSD Premium Матовый","description":"Идеально гладкая матовая поверхность без отблесков, плотность 240 г/м²","pricePerSqM":850,"popular":true},{"id":"descor-textile","name":"Descor Эко-ткань (Германия)","description":"Премиальное бесшовное дышащее полотно с эффектом оштукатуренного потолка","pricePerSqM":2400},{"id":"pongs-satin","name":"Pongs Сатиновый","description":"Нежная шелковистая текстура с мягким рассеиванием света","pricePerSqM":950}],"profiles":[{"id":"eurokraab","name":"Теневой профиль EuroKRAAB 4.0","description":"Эстетичный зазор 6 мм между стеной и потолком без плинтусов и резиновых заглушек","pricePerMeter":1200,"tag":"Хит 2026"},{"id":"floating-led","name":"Парящий потолок с подсветкой","description":"Скрытый профиль с мягким контурным свечением по периметру стен","pricePerMeter":1500},{"id":"classic-pvc","name":"Классический с маскировочной лентой","description":"Надежный алюминиевый багет с аккуратной белой декоративной заглушкой","pricePerMeter":350}],"lighting":[{"id":"magnetic-tracks","name":"Врезная магнитная трек-система","description":"Утопленный в один уровень шинопровод со сменными светильниками","pricePerUnit":3800,"unit":"м.пог","defaultQty":0},{"id":"light-lines","name":"Световые линии (SLOTT / Flexy)","description":"Яркие геометрические световые полосы в плоскости потолка","pricePerUnit":2900,"unit":"м.пог","defaultQty":0},{"id":"spotlights","name":"Точечные светильники GX53 / глубокие споты","description":"Монтаж закладной платформы, проводки и подключение светильника","pricePerUnit":650,"unit":"шт","defaultQty":4},{"id":"chandelier","name":"Крепление люстры на крюк или планку","description":"Усиленная закладная под вес до 20 кг с подключением к выключателю","pricePerUnit":1200,"unit":"шт","defaultQty":1}],"curtainNiches":[{"id":"niche-pk5","name":"Алюминиевый карниз ПК-5 (3 ряда для штор)","pricePerMeter":2400},{"id":"niche-simple","name":"Скрытая ниша с перегибом полотна","pricePerMeter":1400}]},"surveyors":[{"id":"srv-1","name":"Алексей Смирнов","role":"Ведущий инженер-технолог","phone":"+7 (995) 890-44-21","districts":["ЦАО","ЗАО","СЗАО"],"active":true},{"id":"srv-2","name":"Дмитрий Власов","role":"Специалист по световым решениям","phone":"+7 (995) 890-44-22","districts":["ЮЗАО","ЮАО","Новая Москва"],"active":true}],"features":[{"title":"Бесплатный выезд технолога с образцами","description":"Привезем чемодан образцов всех профилей EuroKRAAB, треков и каталоги полотен прямо к вам на объект."},{"title":"Лазерный 3D-замер и точная смета","description":"Рассчитаем фиксированную смету на месте за 15 минут без скрытых доплат в ходе монтажа."},{"title":"Монтаж с чистым пылесосом","description":"Монтируем алюминиевый багет с пылеудалением. Чистота в квартире после завершения работ."}]}'::jsonb,
   true,
   NOW(),
   NOW()
@@ -101,6 +397,80 @@ VALUES (
   'Дмитрий Власов',
   'Специалист по световым решениям',
   '+7 (995) 890-44-22',
+  true
+)
+ON CONFLICT (id) DO UPDATE
+SET
+  name = EXCLUDED.name,
+  role = EXCLUDED.role,
+  phone = EXCLUDED.phone,
+  active = EXCLUDED.active;
+
+
+INSERT INTO public.tenants (slug, name, city, phone, config, active, created_at, updated_at)
+VALUES (
+  'tehpotolki',
+  'ТеХпотолки',
+  'Москва',
+  '+7 (926) 495-90-39',
+  '{"slug":"tehpotolki","name":"ТеХпотолки","tagline":"Технологичные потолочные системы и чистый монтаж. Рейтинг 5.0 (1247 отзывов)","city":"Москва","phone":"+7 (926) 495-90-39","telegram":"@Tehpotolki","whatsapp":"79264959039","address":"Рязанский просп., 97, корп. 2","workingHours":{"start":"08:00","end":"21:00","slotDurationMinutes":120,"bufferMinutes":45},"theme":{"accentColor":"#2563EB","accentForeground":"#000000","borderRadius":"0.75rem","mode":"dark"},"pricing":{"minOrderAmount":8000,"canvases":[{"id":"msd-premium","name":"MSD Premium Матовый","description":"Идеально гладкая матовая поверхность без отблесков, плотность 240 г/м²","pricePerSqM":850,"popular":true},{"id":"descor-textile","name":"Descor Эко-ткань (Германия)","description":"Премиальное бесшовное дышащее полотно с эффектом штукатурки","pricePerSqM":2400},{"id":"pongs-satin","name":"Pongs Сатиновый","description":"Шелковистая фактура с мягким рассеиванием света","pricePerSqM":950}],"profiles":[{"id":"eurokraab","name":"Теневой профиль EuroKRAAB 4.0","description":"Эстетичный зазор 6 мм вдоль стен без резиновых заглушек и плинтусов","pricePerMeter":1200,"tag":"Хит 2026"},{"id":"floating-led","name":"Парящий потолок с подсветкой","description":"Контурное светодиодное свечение по периметру стен","pricePerMeter":1500},{"id":"classic-pvc","name":"Классический с маскировочной лентой","description":"Стандартный надежный багет с аккуратной белой вставкой","pricePerMeter":350}],"lighting":[{"id":"magnetic-tracks","name":"Врезная магнитная трек-система","description":"Шинопровод в плоскости полотна со сменными светильниками","pricePerUnit":3800,"unit":"м.пог","defaultQty":0},{"id":"light-lines","name":"Световые линии (SLOTT)","description":"Встроенные яркие линейные LED-светильники","pricePerUnit":2900,"unit":"м.пог","defaultQty":0},{"id":"spotlights","name":"Точечные споты GX53 / глубокие споты","description":"Монтаж платформы, проводка и коммутация светильника","pricePerUnit":650,"unit":"шт","defaultQty":4},{"id":"chandelier","name":"Монтаж люстры","description":"Усиленная закладная под вес до 20 кг","pricePerUnit":1200,"unit":"шт","defaultQty":1}],"curtainNiches":[{"id":"niche-pk5","name":"Алюминиевый карниз ПК-5 (3 ряда)","pricePerMeter":2400},{"id":"niche-simple","name":"Скрытая ниша с перегибом полотна","pricePerMeter":1400}]},"surveyors":[{"id":"srv-tehpotolki-1","name":"Артем Николаев","role":"Ведущий инженер-технолог","phone":"+7 (926) 495-90-39","districts":["Все районы Москвы и МО"],"active":true}],"features":[{"title":"Более 1200 отзывов","description":"Лидер по рейтингу в Москве среди монтажных компаний."},{"title":"Монтаж за 1 день","description":"Стандартная комната монтируется за 3–4 часа без лишнего шума."},{"title":"Прямые поставки полотен","description":"Выгодные цены напрямую от производителей MSD и Pongs."}]}'::jsonb,
+  true,
+  NOW(),
+  NOW()
+)
+ON CONFLICT (slug) DO UPDATE
+SET
+  name = EXCLUDED.name,
+  city = EXCLUDED.city,
+  phone = EXCLUDED.phone,
+  config = EXCLUDED.config,
+  updated_at = NOW();
+
+
+INSERT INTO public.resources (id, tenant_slug, name, role, phone, active)
+VALUES (
+  'srv-tehpotolki-1',
+  'tehpotolki',
+  'Артем Николаев',
+  'Ведущий инженер-технолог',
+  '+7 (926) 495-90-39',
+  true
+)
+ON CONFLICT (id) DO UPDATE
+SET
+  name = EXCLUDED.name,
+  role = EXCLUDED.role,
+  phone = EXCLUDED.phone,
+  active = EXCLUDED.active;
+
+
+INSERT INTO public.tenants (slug, name, city, phone, config, active, created_at, updated_at)
+VALUES (
+  'vipceiling',
+  'Випсилинг',
+  'Москва и МО',
+  '+7 (925) 130-10-10',
+  '{"slug":"vipceiling","name":"Випсилинг","tagline":"Федеральная сеть натяжных потолков №1. Рейтинг 5.0 (1960 отзывов)","city":"Москва и МО","phone":"+7 (925) 130-10-10","telegram":"@vispcom","whatsapp":"79251301010","address":"1-й Грайвороновский проезд, 20 ст36","workingHours":{"start":"08:30","end":"20:30","slotDurationMinutes":120,"bufferMinutes":45},"theme":{"accentColor":"#0284C7","accentForeground":"#000000","borderRadius":"0.75rem","mode":"dark"},"pricing":{"minOrderAmount":8500,"canvases":[{"id":"msd-premium","name":"MSD Premium Матовый","description":"Идеально гладкая матовая поверхность без отблесков, плотность 240 г/м²","pricePerSqM":850,"popular":true},{"id":"descor-textile","name":"Descor Эко-ткань (Германия)","description":"Премиальное бесшовное дышащее полотно с эффектом штукатурки","pricePerSqM":2400},{"id":"pongs-satin","name":"Pongs Сатиновый","description":"Шелковистая фактура с мягким рассеиванием света","pricePerSqM":950}],"profiles":[{"id":"eurokraab","name":"Теневой профиль EuroKRAAB 4.0","description":"Эстетичный зазор 6 мм вдоль стен без резиновых заглушек и плинтусов","pricePerMeter":1200,"tag":"Хит 2026"},{"id":"floating-led","name":"Парящий потолок с подсветкой","description":"Контурное светодиодное свечение по периметру стен","pricePerMeter":1500},{"id":"classic-pvc","name":"Классический с маскировочной лентой","description":"Стандартный надежный багет с аккуратной белой вставкой","pricePerMeter":350}],"lighting":[{"id":"magnetic-tracks","name":"Врезная магнитная трек-система","description":"Шинопровод в плоскости полотна со сменными светильниками","pricePerUnit":3800,"unit":"м.пог","defaultQty":0},{"id":"light-lines","name":"Световые линии (SLOTT)","description":"Встроенные яркие линейные LED-светильники","pricePerUnit":2900,"unit":"м.пог","defaultQty":0},{"id":"spotlights","name":"Точечные споты GX53 / глубокие споты","description":"Монтаж платформы, проводка и коммутация светильника","pricePerUnit":650,"unit":"шт","defaultQty":4},{"id":"chandelier","name":"Монтаж люстры","description":"Усиленная закладная под вес до 20 кг","pricePerUnit":1200,"unit":"шт","defaultQty":1}],"curtainNiches":[{"id":"niche-pk5","name":"Алюминиевый карниз ПК-5 (3 ряда)","pricePerMeter":2400},{"id":"niche-simple","name":"Скрытая ниша с перегибом полотна","pricePerMeter":1400}]},"surveyors":[{"id":"srv-vipceiling-1","name":"Михаил Громов","role":"Ведущий инженер-технолог","phone":"+7 (925) 130-10-10","districts":["Все районы Москвы и МО"],"active":true}],"features":[{"title":"Федеральный стандарт качества","description":"Собственные производственные линии и многоступенчатый контроль полотен."},{"title":"Чистый монтаж","description":"Монтажные бригады с перфораторами с пылеудалением."},{"title":"Каталог более 200 фактур","description":"Широкий выбор полотен от эконом до эксклюзивных тканевых решений."}]}'::jsonb,
+  true,
+  NOW(),
+  NOW()
+)
+ON CONFLICT (slug) DO UPDATE
+SET
+  name = EXCLUDED.name,
+  city = EXCLUDED.city,
+  phone = EXCLUDED.phone,
+  config = EXCLUDED.config,
+  updated_at = NOW();
+
+
+INSERT INTO public.resources (id, tenant_slug, name, role, phone, active)
+VALUES (
+  'srv-vipceiling-1',
+  'vipceiling',
+  'Михаил Громов',
+  'Ведущий инженер-технолог',
+  '+7 (925) 130-10-10',
   true
 )
 ON CONFLICT (id) DO UPDATE

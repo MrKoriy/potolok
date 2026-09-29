@@ -1,0 +1,139 @@
+{
+  "slug": "tehpotolki",
+  "name": "ТеХпотолки",
+  "tagline": "Технологичные потолочные системы и чистый монтаж. Рейтинг 5.0 (1247 отзывов)",
+  "city": "Москва",
+  "phone": "+7 (926) 495-90-39",
+  "telegram": "@Tehpotolki",
+  "whatsapp": "79264959039",
+  "address": "Рязанский просп., 97, корп. 2",
+  "workingHours": {
+    "start": "08:00",
+    "end": "21:00",
+    "slotDurationMinutes": 120,
+    "bufferMinutes": 45
+  },
+  "theme": {
+    "accentColor": "#2563EB",
+    "accentForeground": "#000000",
+    "borderRadius": "0.75rem",
+    "mode": "dark"
+  },
+  "pricing": {
+    "minOrderAmount": 8000,
+    "canvases": [
+      {
+        "id": "msd-premium",
+        "name": "MSD Premium Матовый",
+        "description": "Идеально гладкая матовая поверхность без отблесков, плотность 240 г/м²",
+        "pricePerSqM": 850,
+        "popular": true
+      },
+      {
+        "id": "descor-textile",
+        "name": "Descor Эко-ткань (Германия)",
+        "description": "Премиальное бесшовное дышащее полотно с эффектом штукатурки",
+        "pricePerSqM": 2400
+      },
+      {
+        "id": "pongs-satin",
+        "name": "Pongs Сатиновый",
+        "description": "Шелковистая фактура с мягким рассеиванием света",
+        "pricePerSqM": 950
+      }
+    ],
+    "profiles": [
+      {
+        "id": "eurokraab",
+        "name": "Теневой профиль EuroKRAAB 4.0",
+        "description": "Эстетичный зазор 6 мм вдоль стен без резиновых заглушек и плинтусов",
+        "pricePerMeter": 1200,
+        "tag": "Хит 2026"
+      },
+      {
+        "id": "floating-led",
+        "name": "Парящий потолок с подсветкой",
+        "description": "Контурное светодиодное свечение по периметру стен",
+        "pricePerMeter": 1500
+      },
+      {
+        "id": "classic-pvc",
+        "name": "Классический с маскировочной лентой",
+        "description": "Стандартный надежный багет с аккуратной белой вставкой",
+        "pricePerMeter": 350
+      }
+    ],
+    "lighting": [
+      {
+        "id": "magnetic-tracks",
+        "name": "Врезная магнитная трек-система",
+        "description": "Шинопровод в плоскости полотна со сменными светильниками",
+        "pricePerUnit": 3800,
+        "unit": "м.пог",
+        "defaultQty": 0
+      },
+      {
+        "id": "light-lines",
+        "name": "Световые линии (SLOTT)",
+        "description": "Встроенные яркие линейные LED-светильники",
+        "pricePerUnit": 2900,
+        "unit": "м.пог",
+        "defaultQty": 0
+      },
+      {
+        "id": "spotlights",
+        "name": "Точечные споты GX53 / глубокие споты",
+        "description": "Монтаж платформы, проводка и коммутация светильника",
+        "pricePerUnit": 650,
+        "unit": "шт",
+        "defaultQty": 4
+      },
+      {
+        "id": "chandelier",
+        "name": "Монтаж люстры",
+        "description": "Усиленная закладная под вес до 20 кг",
+        "pricePerUnit": 1200,
+        "unit": "шт",
+        "defaultQty": 1
+      }
+    ],
+    "curtainNiches": [
+      {
+        "id": "niche-pk5",
+        "name": "Алюминиевый карниз ПК-5 (3 ряда)",
+        "pricePerMeter": 2400
+      },
+      {
+        "id": "niche-simple",
+        "name": "Скрытая ниша с перегибом полотна",
+        "pricePerMeter": 1400
+      }
+    ]
+  },
+  "surveyors": [
+    {
+      "id": "srv-tehpotolki-1",
+      "name": "Артем Николаев",
+      "role": "Ведущий инженер-технолог",
+      "phone": "+7 (926) 495-90-39",
+      "districts": [
+        "Все районы Москвы и МО"
+      ],
+      "active": true
+    }
+  ],
+  "features": [
+    {
+      "title": "Более 1200 отзывов",
+      "description": "Лидер по рейтингу в Москве среди монтажных компаний."
+    },
+    {
+      "title": "Монтаж за 1 день",
+      "description": "Стандартная комната монтируется за 3–4 часа без лишнего шума."
+    },
+    {
+      "title": "Прямые поставки полотен",
+      "description": "Выгодные цены напрямую от производителей MSD и Pongs."
+    }
+  ]
+}
