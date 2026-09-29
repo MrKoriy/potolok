@@ -259,10 +259,10 @@ export const CeilingCalculator: React.FC<CeilingCalculatorProps> = ({
               >
                 <div className="flex items-start justify-between">
                   <div className="space-y-0.5">
-                    <div className="flex items-center gap-2">
+                    <div className="flex flex-wrap items-center gap-1.5">
                       <span className="text-sm font-semibold text-foreground">{c.name}</span>
                       {c.popular && (
-                        <Badge variant="default" className="text-[10px] py-0 px-1.5 h-4">
+                        <Badge variant="default" className="text-[10px] py-0.5 px-2 font-medium tracking-tight whitespace-nowrap shrink-0">
                           Популярно
                         </Badge>
                       )}
@@ -304,10 +304,10 @@ export const CeilingCalculator: React.FC<CeilingCalculatorProps> = ({
               >
                 <div className="flex items-start justify-between">
                   <div className="space-y-0.5">
-                    <div className="flex items-center gap-2">
+                    <div className="flex flex-wrap items-center gap-1.5">
                       <span className="text-sm font-semibold text-foreground">{p.name}</span>
                       {p.tag && (
-                        <Badge variant="outline" className="text-[10px] py-0 px-1.5 h-4 border-primary text-primary">
+                        <Badge variant="outline" className="text-[10px] py-0.5 px-2 font-medium tracking-tight whitespace-nowrap shrink-0 border-primary/50 text-primary bg-primary/5">
                           {p.tag}
                         </Badge>
                       )}
