@@ -307,9 +307,9 @@ export const CeilingCalculator: React.FC<CeilingCalculatorProps> = ({
                     <div className="flex flex-wrap items-center gap-1.5">
                       <span className="text-sm font-semibold text-foreground">{p.name}</span>
                       {p.tag && (
-                        <Badge variant="outline" className="text-[10px] py-0.5 px-2 font-medium tracking-tight whitespace-nowrap shrink-0 border-primary/50 text-primary bg-primary/5">
+                        <span className="inline-flex items-center justify-center text-[10px] font-semibold tracking-wide uppercase px-2 py-0.5 rounded-full border border-primary/40 bg-primary/10 text-primary whitespace-nowrap shrink-0 leading-none h-auto select-none">
                           {p.tag}
-                        </Badge>
+                        </span>
                       )}
                     </div>
                     <p className="text-xs text-muted-foreground">{p.description}</p>
