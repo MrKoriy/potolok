@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import {
   Layers,
-  Sparkles,
+  
   Sliders,
   Plus,
   Minus,
@@ -163,7 +163,7 @@ export const CeilingCalculator: React.FC<CeilingCalculatorProps> = ({
       {/* Hero Feature Banner */}
       <div className="p-4 rounded-xl bg-gradient-to-b from-card to-secondary/30 border border-border space-y-2">
         <div className="flex items-center gap-1.5 text-xs text-primary font-semibold">
-          <Sparkles className="w-3.5 h-3.5" />
+          <Sliders className="w-3.5 h-3.5" />
           <span>Калькулятор сметы онлайн</span>
         </div>
         <h2 className="text-xl font-bold tracking-tight text-foreground">
