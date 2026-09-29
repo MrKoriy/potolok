@@ -14,10 +14,10 @@
     "bufferMinutes": 45
   },
   "theme": {
-    "accentColor": "#10b981",
-    "accentForeground": "#000000",
+    "accentColor": "#B38938",
+    "accentForeground": "#FFFFFF",
     "borderRadius": "0.5rem",
-    "mode": "dark"
+    "mode": "light"
   },
   "pricing": {
     "minOrderAmount": 7000,
@@ -97,7 +97,11 @@
       "name": "Илья Семенов",
       "role": "Инженер-замерщик",
       "phone": "+7 (912) 640-33-12",
-      "districts": ["Приморский", "Выборгский", "Калининский"],
+      "districts": [
+        "Приморский",
+        "Выборгский",
+        "Калининский"
+      ],
       "active": true
     },
     {
@@ -105,7 +109,11 @@
       "name": "Роман Кузнецов",
       "role": "Замерщик-сметчик",
       "phone": "+7 (912) 640-33-13",
-      "districts": ["Московский", "Невский", "Фрунзенский"],
+      "districts": [
+        "Московский",
+        "Невский",
+        "Фрунзенский"
+      ],
       "active": true
     }
   ],

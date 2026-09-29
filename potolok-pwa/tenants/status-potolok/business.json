@@ -14,10 +14,10 @@
     "bufferMinutes": 45
   },
   "theme": {
-    "accentColor": "#f59e0b",
-    "accentForeground": "#000000",
+    "accentColor": "#9C7428",
+    "accentForeground": "#FFFFFF",
     "borderRadius": "0.75rem",
-    "mode": "dark"
+    "mode": "light"
   },
   "pricing": {
     "minOrderAmount": 12000,
@@ -116,7 +116,11 @@
       "name": "Алексей Смирнов",
       "role": "Ведущий инженер-технолог",
       "phone": "+7 (995) 890-44-21",
-      "districts": ["ЦАО", "ЗАО", "СЗАО"],
+      "districts": [
+        "ЦАО",
+        "ЗАО",
+        "СЗАО"
+      ],
       "active": true
     },
     {
@@ -124,7 +128,11 @@
       "name": "Дмитрий Власов",
       "role": "Специалист по световым решениям",
       "phone": "+7 (995) 890-44-22",
-      "districts": ["ЮЗАО", "ЮАО", "Новая Москва"],
+      "districts": [
+        "ЮЗАО",
+        "ЮАО",
+        "Новая Москва"
+      ],
       "active": true
     }
   ],
