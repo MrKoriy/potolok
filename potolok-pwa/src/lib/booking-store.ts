@@ -3,7 +3,7 @@ import { generateAccessToken, hashToken, saveClientBookingToken } from "./crypto
 
 const STORAGE_KEY = "potolok_demo_bookings_v1";
 
-// Initial seed demo bookings to demonstrate owner screens
+// Initial seed demo bookings
 const INITIAL_DEMO_BOOKINGS: BookingRecord[] = [
   {
     id: "bk-status-101",
@@ -39,58 +39,8 @@ const INITIAL_DEMO_BOOKINGS: BookingRecord[] = [
         chandeliersCount: 1,
         curtainNicheMeters: 3.2,
       },
-      {
-        id: "r2",
-        name: "Спальня",
-        area: 16,
-        perimeter: 16,
-        canvasId: "msd-premium",
-        profileId: "eurokraab",
-        spotsCount: 4,
-        tracksMeters: 0,
-        lightLinesMeters: 2.5,
-        chandeliersCount: 0,
-        curtainNicheMeters: 2.8,
-      },
     ],
     createdAt: new Date(Date.now() - 3600000 * 4).toISOString(),
-  },
-  {
-    id: "bk-status-102",
-    tenantSlug: "status-potolok",
-    clientName: "Елена Архипова",
-    clientPhone: "+7 (903) 765-43-21",
-    address: {
-      city: "Москва",
-      street: "Ходынский бульвар",
-      house: "2",
-      apartment: "45",
-      floor: "12",
-    },
-    surveyDate: new Date(Date.now() + 86400000 * 2).toISOString().split("T")[0],
-    timeSlot: "15:00 - 17:00",
-    surveyorId: "srv-2",
-    accessToken: "demo-token-102",
-    estimatedPriceMin: 85000,
-    estimatedPriceMax: 98000,
-    status: "new",
-    comment: "Нужен проект по всему периметру с теневым швом и парящей подсветкой",
-    rooms: [
-      {
-        id: "r3",
-        name: "Вся квартира под ключ",
-        area: 64,
-        perimeter: 48,
-        canvasId: "descor-textile",
-        profileId: "eurokraab",
-        spotsCount: 12,
-        tracksMeters: 6,
-        lightLinesMeters: 5,
-        chandeliersCount: 2,
-        curtainNicheMeters: 6.5,
-      },
-    ],
-    createdAt: new Date(Date.now() - 3600000 * 12).toISOString(),
   },
   {
     id: "bk-art-201",
@@ -138,7 +88,13 @@ function getStoredBookings(): BookingRecord[] {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(INITIAL_DEMO_BOOKINGS));
       return INITIAL_DEMO_BOOKINGS;
     }
-    return JSON.parse(raw);
+    const parsed = JSON.parse(raw);
+    // Фильтр от спама и нецензурных записей
+    return parsed.filter((b: BookingRecord) => {
+      const lowerName = (b.clientName || "").toLowerCase();
+      const lowerStreet = (b.address?.street || "").toLowerCase();
+      return !lowerName.includes("сперма") && !lowerStreet.includes("хуюл");
+    });
   } catch {
     return INITIAL_DEMO_BOOKINGS;
   }
@@ -186,7 +142,6 @@ export const BookingStore = {
   }): Promise<{ booking: BookingRecord; token: string }> {
     const all = getStoredBookings();
 
-    // Check conflict (resource occupancy constraint)
     const slotConflict = all.find(
       (b) =>
         b.tenantSlug === data.tenantSlug &&
@@ -212,7 +167,7 @@ export const BookingStore = {
       address: data.address,
       surveyDate: data.surveyDate,
       timeSlot: data.timeSlot,
-      accessToken: token, // In DB this would store tokenHash
+      accessToken: token,
       estimatedPriceMin: data.estimatedPriceMin,
       estimatedPriceMax: data.estimatedPriceMax,
       status: "new",
@@ -225,9 +180,7 @@ export const BookingStore = {
     saveBookings(all);
     saveClientBookingToken(newBooking.id, token);
 
-    // Suppress unused variable warning for hash demo
     void tokenHash;
-
     return { booking: newBooking, token };
   },
 
@@ -261,6 +214,14 @@ export const BookingStore = {
   cancelBooking(id: string): boolean {
     const record = this.updateStatus(id, "cancelled");
     return Boolean(record);
+  },
+
+  // Полное удаление заявки из хранилища
+  deleteBooking(id: string): boolean {
+    const all = getStoredBookings();
+    const filtered = all.filter((b) => b.id !== id);
+    saveBookings(filtered);
+    return true;
   },
 
   getOccupiedSlots(tenantSlug: string, date: string): string[] {

@@ -20,6 +20,7 @@ import {
   DollarSign,
   CalendarDays,
   Settings2,
+  Trash2,
 } from "lucide-react";
 
 export const OwnerDashboardPage: React.FC = () => {
@@ -86,6 +87,13 @@ export const OwnerDashboardPage: React.FC = () => {
   const handleStatusChange = (bookingId: string, newStatus: BookingStatus) => {
     const updated = BookingStore.updateStatus(bookingId, newStatus);
     if (updated) {
+      setBookings(BookingStore.listByTenant(slug));
+    }
+  };
+
+  const handleDeleteBooking = (bookingId: string) => {
+    if (window.confirm("Удалить эту заявку навсегда?")) {
+      BookingStore.deleteBooking(bookingId);
       setBookings(BookingStore.listByTenant(slug));
     }
   };
@@ -303,8 +311,17 @@ export const OwnerDashboardPage: React.FC = () => {
                       className="flex-1 h-9 text-xs font-semibold gap-1.5"
                     >
                       <FileEdit className="w-3.5 h-3.5" />
-                      <span>Замер на месте</span>
+                      <span>Замер</span>
                     </Button>
+
+                    <button
+                      type="button"
+                      onClick={() => handleDeleteBooking(b.id)}
+                      className="w-9 h-9 rounded-lg border border-destructive/30 bg-destructive/10 text-destructive hover:bg-destructive hover:text-white flex items-center justify-center transition-colors shrink-0"
+                      title="Удалить заявку"
+                    >
+                      <Trash2 className="w-4 h-4" />
+                    </button>
                   </div>
                 </CardContent>
               </Card>
