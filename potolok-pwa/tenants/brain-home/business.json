@@ -1,0 +1,116 @@
+{
+  "slug": "brain-home",
+  "name": "Brain&Home",
+  "tagline": "Потолок возможностей: архитектурный свет и теневые решения",
+  "city": "Москва",
+  "phone": "+7 (925) 409-39-95",
+  "telegram": "@brain_home",
+  "whatsapp": "79254093995",
+  "address": "Гостиничная улица, 9а",
+  "workingHours": {
+    "start": "09:00",
+    "end": "20:00",
+    "slotDurationMinutes": 120,
+    "bufferMinutes": 45
+  },
+  "theme": {
+    "accentColor": "#D97706",
+    "accentForeground": "#000000",
+    "borderRadius": "0.75rem",
+    "mode": "dark"
+  },
+  "pricing": {
+    "minOrderAmount": 9000,
+    "canvases": [
+      {
+        "id": "msd-premium",
+        "name": "MSD Premium Матовый",
+        "description": "Классическое матовое полотно европейского стандарта",
+        "pricePerSqM": 800,
+        "popular": true
+      },
+      {
+        "id": "pongs-satin",
+        "name": "Pongs Сатиновый",
+        "description": "Шелковистая текстура с мягким рассеиванием света",
+        "pricePerSqM": 900
+      },
+      {
+        "id": "descor-textile",
+        "name": "Descor Тканевый эко-потолок",
+        "description": "Дышащее полотно с эффектом оштукатуренной поверхности",
+        "pricePerSqM": 2200
+      }
+    ],
+    "profiles": [
+      {
+        "id": "eurokraab",
+        "name": "Теневой профиль EuroKRAAB",
+        "description": "Стильный интерьерный зазор 6 мм без плинтусов и заглушек",
+        "pricePerMeter": 1100,
+        "tag": "Хит 2026"
+      },
+      {
+        "id": "classic-pvc",
+        "name": "Классический с маскировочной лентой",
+        "description": "Надежный алюминиевый багет с аккуратной белой вставкой",
+        "pricePerMeter": 300
+      }
+    ],
+    "lighting": [
+      {
+        "id": "spotlights",
+        "name": "Точечные споты / светильники",
+        "description": "Монтаж платформы, проводка и подключение",
+        "pricePerUnit": 600,
+        "unit": "шт",
+        "defaultQty": 4
+      },
+      {
+        "id": "light-lines",
+        "name": "Световые линии",
+        "description": "Линейная LED-подсветка в плоскости полотна",
+        "pricePerUnit": 2800,
+        "unit": "м.пог",
+        "defaultQty": 0
+      },
+      {
+        "id": "chandelier",
+        "name": "Монтаж люстры",
+        "description": "Усиленная закладная под вес",
+        "pricePerUnit": 1100,
+        "unit": "шт",
+        "defaultQty": 1
+      }
+    ],
+    "curtainNiches": [
+      {
+        "id": "niche-pk5",
+        "name": "Скрытый карниз ПК-5 (3 ряда)",
+        "pricePerMeter": 2200
+      }
+    ]
+  },
+  "surveyors": [
+    {
+      "id": "srv-brain-home-1",
+      "name": "Сергей Фокин",
+      "role": "Инженер-замерщик",
+      "phone": "+7 (925) 409-39-95",
+      "districts": [
+        "Москва и Подмосковье"
+      ],
+      "active": true
+    }
+  ],
+  "features": [
+    {
+      "title": "Архитектурные решения",
+      "description": "Теневые зазоры EuroKRAAB, световые линии и ниши под шторы."
+    },
+    {
+      "title": "Гарантия по договору",
+      "description": "Официальное гарантийное обязательство."
+    }
+  ]
+}

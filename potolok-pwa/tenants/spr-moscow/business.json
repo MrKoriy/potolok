@@ -1,0 +1,116 @@
+{
+  "slug": "spr-moscow",
+  "name": "СПР Потолки",
+  "tagline": "Профессиональная установка натяжных потолков в Москве",
+  "city": "Москва",
+  "phone": "+7 (936) 153-51-88",
+  "telegram": "@spr_77_potolki",
+  "whatsapp": "79361535188",
+  "address": "Белокаменное шоссе, 10",
+  "workingHours": {
+    "start": "09:00",
+    "end": "20:00",
+    "slotDurationMinutes": 120,
+    "bufferMinutes": 45
+  },
+  "theme": {
+    "accentColor": "#0D9488",
+    "accentForeground": "#000000",
+    "borderRadius": "0.75rem",
+    "mode": "dark"
+  },
+  "pricing": {
+    "minOrderAmount": 7000,
+    "canvases": [
+      {
+        "id": "msd-premium",
+        "name": "MSD Premium Матовый",
+        "description": "Классическое матовое полотно европейского стандарта",
+        "pricePerSqM": 800,
+        "popular": true
+      },
+      {
+        "id": "pongs-satin",
+        "name": "Pongs Сатиновый",
+        "description": "Шелковистая текстура с мягким рассеиванием света",
+        "pricePerSqM": 900
+      },
+      {
+        "id": "descor-textile",
+        "name": "Descor Тканевый эко-потолок",
+        "description": "Дышащее полотно с эффектом оштукатуренной поверхности",
+        "pricePerSqM": 2200
+      }
+    ],
+    "profiles": [
+      {
+        "id": "eurokraab",
+        "name": "Теневой профиль EuroKRAAB",
+        "description": "Стильный интерьерный зазор 6 мм без плинтусов и заглушек",
+        "pricePerMeter": 1100,
+        "tag": "Хит 2026"
+      },
+      {
+        "id": "classic-pvc",
+        "name": "Классический с маскировочной лентой",
+        "description": "Надежный алюминиевый багет с аккуратной белой вставкой",
+        "pricePerMeter": 300
+      }
+    ],
+    "lighting": [
+      {
+        "id": "spotlights",
+        "name": "Точечные споты / светильники",
+        "description": "Монтаж платформы, проводка и подключение",
+        "pricePerUnit": 600,
+        "unit": "шт",
+        "defaultQty": 4
+      },
+      {
+        "id": "light-lines",
+        "name": "Световые линии",
+        "description": "Линейная LED-подсветка в плоскости полотна",
+        "pricePerUnit": 2800,
+        "unit": "м.пог",
+        "defaultQty": 0
+      },
+      {
+        "id": "chandelier",
+        "name": "Монтаж люстры",
+        "description": "Усиленная закладная под вес",
+        "pricePerUnit": 1100,
+        "unit": "шт",
+        "defaultQty": 1
+      }
+    ],
+    "curtainNiches": [
+      {
+        "id": "niche-pk5",
+        "name": "Скрытый карниз ПК-5 (3 ряда)",
+        "pricePerMeter": 2200
+      }
+    ]
+  },
+  "surveyors": [
+    {
+      "id": "srv-spr-moscow-1",
+      "name": "Александр Кулешов",
+      "role": "Инженер-замерщик",
+      "phone": "+7 (936) 153-51-88",
+      "districts": [
+        "Москва и Подмосковье"
+      ],
+      "active": true
+    }
+  ],
+  "features": [
+    {
+      "title": "Оперативный выезд",
+      "description": "Приедем на замер в день обращения."
+    },
+    {
+      "title": "Качественные полотна",
+      "description": "Матовые, сатиновые и глянцевые фактуры."
+    }
+  ]
+}
