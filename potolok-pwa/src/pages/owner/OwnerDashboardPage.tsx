@@ -2,6 +2,8 @@ import React, { useState, useMemo } from "react";
 import { useTenant } from "@/context/TenantContext";
 import { OwnerHeader } from "@/components/owner/OwnerHeader";
 import { QuickQuoteDrawer } from "@/components/owner/QuickQuoteDrawer";
+import { PricingManagerModal } from "@/components/owner/PricingManagerModal";
+import { ScheduleManagerModal } from "@/components/owner/ScheduleManagerModal";
 import { BookingStore } from "@/lib/booking-store";
 import { formatPrice, formatDateRu } from "@/lib/utils";
 import { BookingRecord, BookingStatus } from "@/types/tenant";
@@ -15,6 +17,9 @@ import {
   FileEdit,
   TrendingUp,
   FileCheck,
+  DollarSign,
+  CalendarDays,
+  Settings2,
 } from "lucide-react";
 
 export const OwnerDashboardPage: React.FC = () => {
@@ -26,12 +31,16 @@ export const OwnerDashboardPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState<"all" | "new" | "in_progress" | "done">("all");
   const [editingBooking, setEditingBooking] = useState<BookingRecord | null>(null);
 
+  // New Management Modals State
+  const [isPricingModalOpen, setIsPricingModalOpen] = useState(false);
+  const [isScheduleModalOpen, setIsScheduleModalOpen] = useState(false);
+
   // Re-fetch on tenant switch
   React.useEffect(() => {
     setBookings(BookingStore.listByTenant(slug));
   }, [slug]);
 
-  // Analytics computation (strict rule: separate appointments vs closed revenue)
+  // Analytics computation
   const metrics = useMemo(() => {
     const totalAppointments = bookings.length;
     const closedDeals = bookings.filter((b) => b.status === "deal_closed");
@@ -98,6 +107,45 @@ export const OwnerDashboardPage: React.FC = () => {
       <OwnerHeader />
 
       <main className="flex-1 max-w-md w-full mx-auto px-4 py-4 space-y-5">
+        {/* Owner Quick Controls (Цены, Услуги, Бан слотов) */}
+        <section className="p-3.5 rounded-2xl bg-card border border-border space-y-2.5 shadow-sm">
+          <div className="flex items-center justify-between text-xs">
+            <span className="font-bold text-foreground flex items-center gap-1.5 uppercase tracking-wider text-[11px]">
+              <Settings2 className="w-3.5 h-3.5 text-primary" />
+              <span>Панель управления владельца</span>
+            </span>
+            <span className="text-[10px] text-primary font-semibold">Live Mode</span>
+          </div>
+
+          <div className="grid grid-cols-2 gap-2">
+            <button
+              onClick={() => setIsPricingModalOpen(true)}
+              className="p-3 rounded-xl border border-border bg-secondary/30 hover:border-primary/50 text-left transition-all flex flex-col justify-between space-y-2"
+            >
+              <div className="w-7 h-7 rounded-lg bg-primary/10 text-primary flex items-center justify-center">
+                <DollarSign className="w-4 h-4" />
+              </div>
+              <div>
+                <div className="text-xs font-bold text-foreground">Цены и услуги</div>
+                <div className="text-[10px] text-muted-foreground">Прайс за м², треки, ниши</div>
+              </div>
+            </button>
+
+            <button
+              onClick={() => setIsScheduleModalOpen(true)}
+              className="p-3 rounded-xl border border-border bg-secondary/30 hover:border-primary/50 text-left transition-all flex flex-col justify-between space-y-2"
+            >
+              <div className="w-7 h-7 rounded-lg bg-primary/10 text-primary flex items-center justify-center">
+                <CalendarDays className="w-4 h-4" />
+              </div>
+              <div>
+                <div className="text-xs font-bold text-foreground">График и баны</div>
+                <div className="text-[10px] text-muted-foreground">Выходные, блокировка часов</div>
+              </div>
+            </button>
+          </div>
+        </section>
+
         {/* KPI Summary Cards */}
         <div className="grid grid-cols-2 gap-2.5">
           <div className="p-3.5 rounded-xl bg-card border border-border space-y-1">
@@ -113,13 +161,13 @@ export const OwnerDashboardPage: React.FC = () => {
 
           <div className="p-3.5 rounded-xl bg-card border border-border space-y-1">
             <div className="text-[11px] text-muted-foreground font-medium flex items-center gap-1.5">
-              <TrendingUp className="w-3.5 h-3.5 text-emerald-400" />
+              <TrendingUp className="w-3.5 h-3.5 text-emerald-500" />
               <span>Договоров закрыто</span>
             </div>
             <div className="text-xl font-black text-foreground">
               {metrics.closedDealsCount}
             </div>
-            <div className="text-[10px] text-emerald-400 font-semibold">
+            <div className="text-[10px] text-emerald-500 font-semibold">
               Конверсия {metrics.conversionRate}%
             </div>
           </div>
@@ -242,7 +290,7 @@ export const OwnerDashboardPage: React.FC = () => {
                   {/* Actions for Surveyor on Site */}
                   <div className="flex items-center gap-2 pt-1">
                     <a
-                      href={`tel:${b.clientPhone.replace(/[^+\d]/g, "")}`}
+                      href={`tel:${b.clientPhone.replace(/[^\d+]/g, "")}`}
                       className="inline-flex items-center justify-center gap-1.5 flex-1 h-9 rounded-lg bg-secondary text-foreground hover:bg-secondary/80 font-medium text-xs border border-border"
                     >
                       <Phone className="w-3.5 h-3.5 text-primary" />
@@ -274,6 +322,18 @@ export const OwnerDashboardPage: React.FC = () => {
           onSave={handleQuoteSaved}
         />
       )}
+
+      {/* Modal 1: Управление ценами и услугами */}
+      <PricingManagerModal
+        isOpen={isPricingModalOpen}
+        onClose={() => setIsPricingModalOpen(false)}
+      />
+
+      {/* Modal 2: График, выходные и баны слотов */}
+      <ScheduleManagerModal
+        isOpen={isScheduleModalOpen}
+        onClose={() => setIsScheduleModalOpen(false)}
+      />
     </div>
   );
 };

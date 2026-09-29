@@ -2,18 +2,19 @@ import React, { createContext, useContext, useEffect, useMemo, useState } from "
 import { useParams, useNavigate } from "react-router-dom";
 import { BusinessTenant } from "@/types/tenant";
 import { getTenantBySlug, getDefaultTenantSlug, getAllTenants } from "@/lib/tenant-registry";
+import { OwnerSettingsStore } from "@/lib/owner-settings-store";
 
 interface TenantContextType {
   tenant: BusinessTenant;
   slug: string;
   allTenants: BusinessTenant[];
   switchTenant: (newSlug: string) => void;
+  refreshTenant: () => void;
 }
 
 const TenantContext = createContext<TenantContextType | null>(null);
 
 function hexToHsl(hex: string): string {
-  // Simple conversion from hex to "h s% l%" for tailwind CSS variables
   let c = hex.replace("#", "");
   if (c.length === 3) {
     c = c.split("").map((x) => x + x).join("");
@@ -54,24 +55,36 @@ export const TenantProvider: React.FC<{ children: React.ReactNode }> = ({ childr
   const allTenants = useMemo(() => getAllTenants(), []);
 
   const activeSlug = slug || getDefaultTenantSlug();
-  const [tenant, setTenant] = useState<BusinessTenant | null>(() => getTenantBySlug(activeSlug));
+  const [tenant, setTenant] = useState<BusinessTenant | null>(() => {
+    const raw = getTenantBySlug(activeSlug);
+    return raw ? OwnerSettingsStore.applyToTenant(raw) : null;
+  });
+
+  const refreshTenant = React.useCallback(() => {
+    const found = getTenantBySlug(activeSlug);
+    if (found) {
+      setTenant(OwnerSettingsStore.applyToTenant(found));
+    }
+  }, [activeSlug]);
 
   useEffect(() => {
     const found = getTenantBySlug(activeSlug);
     if (found) {
-      setTenant(found);
+      setTenant(OwnerSettingsStore.applyToTenant(found));
     } else {
-      // Fallback if slug not found
       const defSlug = getDefaultTenantSlug();
       navigate(`/s/${defSlug}/`, { replace: true });
     }
   }, [activeSlug, navigate]);
 
-  // Apply dynamic theme accent to CSS variables
+  useEffect(() => {
+    const handleUpdate = () => refreshTenant();
+    window.addEventListener("tenant-settings-updated", handleUpdate);
+    return () => window.removeEventListener("tenant-settings-updated", handleUpdate);
+  }, [refreshTenant]);
+
   useEffect(() => {
     if (!tenant) return;
-
-    // Update document title and theme color
     document.title = `${tenant.name} — Запись на замер`;
 
     try {
@@ -100,7 +113,7 @@ export const TenantProvider: React.FC<{ children: React.ReactNode }> = ({ childr
   }
 
   return (
-    <TenantContext.Provider value={{ tenant, slug: activeSlug, allTenants, switchTenant }}>
+    <TenantContext.Provider value={{ tenant, slug: activeSlug, allTenants, switchTenant, refreshTenant }}>
       {children}
     </TenantContext.Provider>
   );
