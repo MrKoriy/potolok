@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useTenant } from "@/context/TenantContext";
-import { Shield, Eye, ArrowRightLeft } from "lucide-react";
+import { Shield, Eye } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 export const OwnerHeader: React.FC = () => {
-  const { tenant, allTenants, switchTenant } = useTenant();
+  const { tenant } = useTenant();
 
   return (
     <header className="sticky top-0 z-30 w-full border-b border-border/80 bg-background/95 backdrop-blur">
@@ -32,21 +32,6 @@ export const OwnerHeader: React.FC = () => {
             </Badge>
           </div>
           <p className="text-[11px] text-muted-foreground">Система управления замерами</p>
-        </div>
-
-        <div className="flex items-center gap-1">
-          <ArrowRightLeft className="w-3.5 h-3.5 text-muted-foreground" />
-          <select
-            value={tenant.slug}
-            onChange={(e) => switchTenant(e.target.value)}
-            className="bg-card text-foreground border border-border text-xs rounded px-2 py-1"
-          >
-            {allTenants.map((t) => (
-              <option key={t.slug} value={t.slug}>
-                {t.name}
-              </option>
-            ))}
-          </select>
         </div>
       </div>
     </header>
