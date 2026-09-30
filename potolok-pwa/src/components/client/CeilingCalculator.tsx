@@ -474,7 +474,7 @@ export const CeilingCalculator: React.FC<CeilingCalculatorProps> = ({
       </Card>
 
       {/* Floating Bottom Price Summary Bar */}
-      <div className="fixed bottom-14 left-0 right-0 z-20 p-3 bg-card/95 backdrop-blur border-t border-border shadow-2xl">
+      <div className="fixed left-0 right-0 z-30 px-4 py-3 bg-card/98 backdrop-blur-md border-t border-border shadow-[0_-8px_25px_rgba(0,0,0,0.15)]" style={{ bottom: "calc(3.5rem + env(safe-area-inset-bottom, 0px))" }}>
         <div className="max-w-md mx-auto flex items-center justify-between gap-3">
           <div>
             <div className="text-[11px] text-muted-foreground font-medium">Ориентировочная смета:</div>

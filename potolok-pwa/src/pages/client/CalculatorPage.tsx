@@ -25,7 +25,7 @@ export const CalculatorPage: React.FC = () => {
     <div className="min-h-screen bg-background text-foreground flex flex-col">
       <Header />
 
-      <main className="flex-1 max-w-md w-full mx-auto px-4 py-4 space-y-6">
+      <main className="flex-1 max-w-md w-full mx-auto px-4 pt-4 pb-36 space-y-6">
         {/* Interactive Calculator */}
         <CeilingCalculator onProceedToBooking={handleProceedToBooking} />
 
